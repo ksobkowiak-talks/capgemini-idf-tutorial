@@ -1,1 +1,1 @@
-# Capgemini Immediate Digital Framework Demo
+# Capgemini Immediate Digital Framework Tutorial
