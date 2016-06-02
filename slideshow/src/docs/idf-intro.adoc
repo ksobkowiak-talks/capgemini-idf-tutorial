@@ -1,19 +1,11 @@
-:revealjs_theme: conference
-:revealjs_customtheme: assets/css/conference.css
-:revealjs_width: 1280
-:revealjs_height: 720
-// The valid options are coderay, highlightjs, prettify, and pygments
-// :source-highlighter: pygments
-// :pygments-style: tango
-:source-highlighter: highlightjs
+include::_settings.adoc[]
 :speaker: Krzysztof Sobkowiak (http://twitter.com/ksobkowiak[@ksobkowiak])
 :speaker-title: The Apache Software Foundation Member, Senior Solution Architect at Capgemini
-:speaker-email: krzys.sobkowiak@gmail.com, ksobkowiak@apache.org
+:speaker-email: krzysztof.sobkowiak@capgemini.com
 :speaker-blog: http://krzysztof-sobkowiak.net
 :speaker-twitter: http://twitter.com/ksobkowiak[@ksobkowiak]
-:template-images-dir: assets/images
 
-// ***************************************************************************
+// -------------------------------------------------------------------------------
 
 = Capgemini Immediate Digital Framework
 
@@ -35,7 +27,7 @@ Senior Solution Architect at Capgemini
 image:{template-images-dir}/feather.png[width="60", link="http://apache.org"]
 --
 
-// ***************************************************************************
+// -------------------------------------------------------------------------------
 
 == About Me
 
@@ -53,7 +45,20 @@ a|
 <.^| image:{template-images-dir}/kso1.png[] |
 |===
 
-// ***************************************************************************
+// -------------------------------------------------------------------------------
+
+=== !
+
+[.centering]
+--
+image:{template-images-dir}/warn.png[]
+
+[.medium-text]
+Views in this presentation are my personal views and do not necessarily reflect the views of the Capgemini.
+--
+
+// -------------------------------------------------------------------------------
+
 
 == !
 
@@ -67,6 +72,29 @@ image:{template-images-dir}/underline.png[]
 
 [.large-text]
 Any questions?
+
+[.newline]
+You can find me at +
+{speaker-twitter} +
+{speaker-email} +
+{speaker-blog}
 --
 
-// ***************************************************************************
+
+// -------------------------------------------------------------------------------
+
+=== !
+
+[.centering]
+--
+image:{template-images-dir}/warn.png[]
+
+[.small-text]
++++
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
++++
+
+[.small-text]
+--
+
+// -------------------------------------------------------------------------------
