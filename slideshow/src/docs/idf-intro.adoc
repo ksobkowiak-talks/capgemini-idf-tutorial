@@ -1,0 +1,72 @@
+:revealjs_theme: conference
+:revealjs_customtheme: assets/css/conference.css
+:revealjs_width: 1280
+:revealjs_height: 720
+// The valid options are coderay, highlightjs, prettify, and pygments
+// :source-highlighter: pygments
+// :pygments-style: tango
+:source-highlighter: highlightjs
+:speaker: Krzysztof Sobkowiak (http://twitter.com/ksobkowiak[@ksobkowiak])
+:speaker-title: The Apache Software Foundation Member, Senior Solution Architect at Capgemini
+:speaker-email: krzys.sobkowiak@gmail.com, ksobkowiak@apache.org
+:speaker-blog: http://krzysztof-sobkowiak.net
+:speaker-twitter: http://twitter.com/ksobkowiak[@ksobkowiak]
+:template-images-dir: assets/images
+
+// ***************************************************************************
+
+= Capgemini Immediate Digital Framework
+
+[.cover]
+--
++++<h3>Introduction</h3>+++
+[.newline]
+
+[.event]
+IT Architecture Community +
+Wrocław, 20 June 2016
+
+[.newline]
+{speaker}
+[.speaker-title]
+The Apache Software Foundation Member +
+Senior Solution Architect at Capgemini
+[.logo-left]
+image:{template-images-dir}/feather.png[width="60", link="http://apache.org"]
+--
+
+// ***************************************************************************
+
+== About Me
+
+[.noredheader,cols="75%,25%"]
+|===
+a|
+* FOSS enthusiast, evangelist & architect
+* The Apache Software Foundation
+** Member
+** Apache ServiceMix commiter & PMC chair (V.P. Apache ServiceMix)
+** active at Apache Karaf, CXF, Camel, ActiveMQ
+* Member/developer at http://oasp.io[OASP], https://ops4j1.jira.com/wiki/[OPS4J]
+* Senior Solution Architect & trainer at Capgemini
+* Co-founder, member & trainer at http://robocap.pl[RoboCap.pl]
+<.^| image:{template-images-dir}/kso1.png[] |
+|===
+
+// ***************************************************************************
+
+== !
+
+[.thanks]
+--
+image:{template-images-dir}/smile.png[]
+
++++<h1>Thanks!</h1>+++
+[.underline]
+image:{template-images-dir}/underline.png[]
+
+[.large-text]
+Any questions?
+--
+
+// ***************************************************************************
