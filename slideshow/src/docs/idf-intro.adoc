@@ -73,9 +73,9 @@ or in the cloud.
 of their choice in order to achieve growth and stay two steps ahead of the competition.
 
 // -------------------------------------------------------------------------------
-=== Immediate
+=== Immediate Accelerators
 
-[.noredheader,cols="50%,50%"]
+[.noredheader,cols="55%,45%"]
 |===
 .^a|
 * Immediate consists of a reference architecture and six accelerators:
@@ -85,8 +85,20 @@ of their choice in order to achieve growth and stay two steps ahead of the compe
 ** Service Management
 ** Automated Provisioning
 ** Application Lifecycle Management.
-* Each accelerator is based on mature open-source products and contains extensive
-documentation, scalable examples and auto-provisioning scripts.
+^.^| image:images/h-model.png[width="80%"] |
+|===
+
+// -------------------------------------------------------------------------------
+=== Immediate Accelerators
+
+[.noredheader,cols="55%,45%"]
+|===
+.^a|
+* Based on mature open-source products.
+* Contain
+** extensive documentation,
+** scalable examples
+** and auto-provisioning scripts.
 ^.^| image:images/h-model.png[width="80%"] |
 |===
 
@@ -94,7 +106,7 @@ documentation, scalable examples and auto-provisioning scripts.
 
 === Immediate Technologies
 
-[.noredheader,cols="50%,50%"]
+[.noredheader,cols="55%,45%"]
 |===
 .^a|
 asdsdf
