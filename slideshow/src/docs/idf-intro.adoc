@@ -62,15 +62,42 @@ Views in this presentation are my personal views and do not necessarily reflect 
 // -------------------------------------------------------------------------------
 == Immediate
 
+[.centering]
+--
+image:images/immediate.png[width="40%"]
+--
+
 // -------------------------------------------------------------------------------
 
 === Immediate
 
-* Capgemini Immediate is a robust and secure _Digital Platform_ on which _Digital
-Services_ can be integrated quickly, consistently and cost effectively, on-premise
-or in the cloud.
-* Its purpose is to allow an organisation to quickly leverage the market innovations
-of their choice in order to achieve growth and stay two steps ahead of the competition.
+* Immediate is a robust and secure _digital platform_ for application development
+and integration using open source and SaaS.
+* It helps you integrate new _digital services_ quickly, consistently and cost-
+effectively, on-premise or in the cloud.
+* Its purpose is to allow you to quickly leverage the market innovations of your
+choice in order to achieve growth and stay two steps ahead of the competition.
+* It helps you innovate by integrating the best digital services into your business.
+* The platform can be consumed in part, or as an end-to-end service operated and
+managed by Capgemini.
+
+// -------------------------------------------------------------------------------
+
+=== Immediate
+
+[.noredheader,cols="55%,45%"]
+|===
+.^a|
+* Immediate gives you a digital platform to:
+** Create a seamless customer experience
+** Develop mobile apps
+** Orchestrate services
+** Manage access, identity and security
+** Derive insights from your data
+** Support a shift to a DevOps-based culture and approach
+* Immediate is complete, enterprise-scale, proven and ready-to-go.
+^.^| image:images/h-model.png[width="80%"] |
+|===
 
 // -------------------------------------------------------------------------------
 === Immediate Accelerators
@@ -78,7 +105,7 @@ of their choice in order to achieve growth and stay two steps ahead of the compe
 [.noredheader,cols="55%,45%"]
 |===
 .^a|
-* Immediate consists of a reference architecture and six accelerators:
+* Immediate consists of a reference architecture and six pre-built accelerators:
 ** Integration
 ** API Management
 ** Identity & Access Management
@@ -109,7 +136,17 @@ of their choice in order to achieve growth and stay two steps ahead of the compe
 [.noredheader,cols="55%,45%"]
 |===
 .^a|
-asdsdf
+The products selected with these key principles in mind:
+
+* Functionally rich
+* Mature open source
+* Cost-effective support mode
+* IaaS neutral
+* Scalable and cheap to deploy so they can
+    be used for proofs of concepts, alphas,
+    prototypes all the way to super secure high
+    volume systems
+* Deployable on public or private cloud
 ^.^| image:images/h-model-with-products.png[width="80%"] |
 |===
 
