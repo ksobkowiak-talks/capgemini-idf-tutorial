@@ -23,8 +23,8 @@ Wrocław, 20 June 2016
 [.speaker-title]
 The Apache Software Foundation Member +
 Senior Solution Architect at Capgemini
-[.logo-left]
-image:{template-images-dir}/feather.png[width="60", link="http://apache.org"]
+//[.logo-left]
+//image:{template-images-dir}/feather.png[width="60", link="http://apache.org"]
 --
 
 // -------------------------------------------------------------------------------
@@ -126,7 +126,8 @@ managed by Capgemini.
 ** extensive documentation,
 ** scalable examples
 ** and auto-provisioning scripts.
-^.^| image:images/h-model.png[width="80%"] |
+* Products are unchanged by Capgemini and are supported and maintained by the originating source
+^.^| image:images/h-model-with-products.png[width="80%"] |
 |===
 
 // -------------------------------------------------------------------------------
@@ -136,8 +137,7 @@ managed by Capgemini.
 [.noredheader,cols="55%,45%"]
 |===
 .^a|
-The products selected with these key principles in mind:
-
+.The products selected with these key principles in mind:
 * Functionally rich
 * Mature open source
 * Cost-effective support mode
@@ -151,6 +151,8 @@ The products selected with these key principles in mind:
 |===
 
 // -------------------------------------------------------------------------------
+
+== API Management Accelerator
 
 // -------------------------------------------------------------------------------
 
