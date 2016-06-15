@@ -156,6 +156,124 @@ managed by Capgemini.
 
 // -------------------------------------------------------------------------------
 
+=== What our customers need?
+
+* Meet Partner demand for increased collaboration
+* Offer existing services externally
+* Simple, lightweight APIs to support a Mobile strategy
+* Deliver APIs to 24x7x365 service levels
+* Self Service API Discovery
+* Analytical information on API use
+* Support for API lifecycle
+* Policy driven approach to security, rate limiting, billing
+
+// -------------------------------------------------------------------------------
+
+=== Concepts
+
+[.centering]
+--
+image:images/api-management-acc-concepts.jpg[width="60%"]
+--
+
+// -------------------------------------------------------------------------------
+
+=== Architecture --  Logical View
+
+[.centering]
+--
+image:images/api-management-acc-logical-view.png[width="60%"]
+--
+
+=== Architecture --  Process View
+
+[.centering]
+--
+image:images/api-management-acc-process-view.png[width="70%"]
+--
+
+// -------------------------------------------------------------------------------
+
+=== Features
+
+* Self-service registration
+* API Documentation & Design
+* Rate limits
+* Support for API Consumer development lifecycle
+* Scripted API Configuration
+* API Analytics
+* Automated Provisioning
+
+// -------------------------------------------------------------------------------
+
+=== Supported Software
+
+[.noredheader,cols="55%,45%"]
+|===
+.^a|
+* WSO2 Carbon
+* WSO2 API Manager
+* WSO2 Governance Registry
+* Elasticsearch ELK
+* Swagger
+* Puppet
+.^a|
+* VirtualBox
+* Vagrant
+* MariaDB
+* HAProxy
+* DNSMasq
+* Consul Agent
+ |
+|===
+
+// -------------------------------------------------------------------------------
+
+== Integration Accelerator
+
+// -------------------------------------------------------------------------------
+
+=== What our customers need?
+
+* Avoid point to point?
+* Create a pluggable architecture where you can swap in and out SaaS Services avoiding lock-in?
+* Manage and analyse data when it is everywhere?
+* Create reliable systems from unreliable SaaS services?
+* Deploy solutions across PaaS and IaaS providers, avoiding IaaS lock-in?
+* Assurance of the customer experiences they are going to get before we have started to deliver it?
+* Create solutions that scale both technically and commercially?
+* Ensure that our solutions are engineered consistently and to a high quality?
+* Deliver rapidly so that our customers can take advantage of new opportunities / technology?
+
+// -------------------------------------------------------------------------------
+
+=== Concepts
+
+[.centering]
+--
+image:images/integration-acc-concepts.png[width="70%"]
+--
+
+// -------------------------------------------------------------------------------
+
+=== Architecture --  Logical View
+
+[.centering]
+--
+image:images/integration-acc-logical-view.png[width="70%"]
+--
+
+=== Architecture --  Process View
+
+[.centering]
+--
+image:images/integration-acc-process-view.png[width="70%"]
+--
+
+// -------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------
+
 // -------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------
