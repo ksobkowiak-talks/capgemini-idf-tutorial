@@ -6,7 +6,6 @@ include::_settings.adoc[]
 :speaker-twitter: http://twitter.com/ksobkowiak[@ksobkowiak]
 
 // -------------------------------------------------------------------------------
-
 = Capgemini Immediate Digital Framework
 
 [.cover]
@@ -28,7 +27,6 @@ Senior Solution Architect at Capgemini
 --
 
 // -------------------------------------------------------------------------------
-
 == About Me
 
 [.noredheader,cols="75%,25%"]
@@ -61,14 +59,12 @@ Views in this presentation are my personal views and do not necessarily reflect 
 
 // -------------------------------------------------------------------------------
 == Immediate
-
 [.centering]
 --
 image:images/immediate.png[width="40%"]
 --
 
 // -------------------------------------------------------------------------------
-
 === Immediate
 
 * Immediate is a robust and secure _digital platform_ for application development
@@ -82,7 +78,6 @@ choice in order to achieve growth and stay two steps ahead of the competition.
 managed by Capgemini.
 
 // -------------------------------------------------------------------------------
-
 === Immediate
 
 [.noredheader,cols="55%,45%"]
@@ -131,7 +126,6 @@ managed by Capgemini.
 |===
 
 // -------------------------------------------------------------------------------
-
 === Immediate Technologies
 
 [.noredheader,cols="55%,45%"]
@@ -151,11 +145,9 @@ managed by Capgemini.
 |===
 
 // -------------------------------------------------------------------------------
-
 == API Management Accelerator
 
 // -------------------------------------------------------------------------------
-
 === What our customers need?
 
 * Meet Partner demand for increased collaboration
@@ -168,16 +160,14 @@ managed by Capgemini.
 * Policy driven approach to security, rate limiting, billing
 
 // -------------------------------------------------------------------------------
-
 === Concepts
 
 [.centering]
 --
-image:images/api-management-acc-concepts.jpg[width="60%"]
+image:images/api-management-acc-concepts.png[width="60%"]
 --
 
 // -------------------------------------------------------------------------------
-
 === Architecture --  Logical View
 
 [.centering]
@@ -185,6 +175,7 @@ image:images/api-management-acc-concepts.jpg[width="60%"]
 image:images/api-management-acc-logical-view.png[width="60%"]
 --
 
+// -------------------------------------------------------------------------------
 === Architecture --  Process View
 
 [.centering]
@@ -193,7 +184,6 @@ image:images/api-management-acc-process-view.png[width="70%"]
 --
 
 // -------------------------------------------------------------------------------
-
 === Features
 
 * Self-service registration
@@ -205,19 +195,18 @@ image:images/api-management-acc-process-view.png[width="70%"]
 * Automated Provisioning
 
 // -------------------------------------------------------------------------------
-
-=== Supported Software
+=== Supporting Software
 
 [.noredheader,cols="55%,45%"]
 |===
-.^a|
+^.^a|
 * WSO2 Carbon
 * WSO2 API Manager
 * WSO2 Governance Registry
 * Elasticsearch ELK
 * Swagger
 * Puppet
-.^a|
+^.^a|
 * VirtualBox
 * Vagrant
 * MariaDB
@@ -228,11 +217,9 @@ image:images/api-management-acc-process-view.png[width="70%"]
 |===
 
 // -------------------------------------------------------------------------------
-
 == Integration Accelerator
 
 // -------------------------------------------------------------------------------
-
 === What our customers need?
 
 * Avoid point to point?
@@ -246,7 +233,6 @@ image:images/api-management-acc-process-view.png[width="70%"]
 * Deliver rapidly so that our customers can take advantage of new opportunities / technology?
 
 // -------------------------------------------------------------------------------
-
 === Concepts
 
 [.centering]
@@ -255,7 +241,6 @@ image:images/integration-acc-concepts.png[width="70%"]
 --
 
 // -------------------------------------------------------------------------------
-
 === Architecture --  Logical View
 
 [.centering]
@@ -263,6 +248,7 @@ image:images/integration-acc-concepts.png[width="70%"]
 image:images/integration-acc-logical-view.png[width="70%"]
 --
 
+// -------------------------------------------------------------------------------
 === Architecture --  Process View
 
 [.centering]
@@ -271,6 +257,190 @@ image:images/integration-acc-process-view.png[width="70%"]
 --
 
 // -------------------------------------------------------------------------------
+=== Features
+
+[.noredheader,cols="55%,45%"]
+|===
+.^a|
+* Connectors
+* Management
+* Monitoring
+* Logging
+* Incident Reporting
+* Events
+* Service Provider Integrations
+* Service Adapters
+.^a|
+* Data Integration
+* API Provisioning
+* On-premises
+* Patterns
+* Strategies
+* Message Processing
+* Batch Processing
+* Mule Integration Best Practices
+ |
+|===
+
+// -------------------------------------------------------------------------------
+=== Supporting Software
+
+[.noredheader,cols="55%,45%"]
+|===
+^.^a|
+* Mule ESB
+* Anypoint™ Studio
+* Elasticsearch ELK
+* Puppet
+* Apache™ ActiveMQ
+^.^a|
+* VirtualBox
+* Vagrant
+* HAProxy
+* DNSMasq
+* Consul Agent
+ |
+|===
+
+// -------------------------------------------------------------------------------
+== IAM Accelerator
+
+// -------------------------------------------------------------------------------
+=== What our customers need?
+
+* Provide seamless Security across on-premise and SaaS services
+* Provide contextual security e.g. allow a user to log on to SaaS in different ways depending on whether they are on the internal network or not
+* Federated Login to services using common Internet-based logins e.g. Facebook
+* Login services for 10m+ external users (vs 10k+ for internal)
+* SSO across multiple types of applications
+* Support authentication of APIs
+* Adaptability - respond to change quickly
+* Policy driven approach rather than code
+* Support mobile
+* Central administration of accounts
+
+// -------------------------------------------------------------------------------
+=== Security within the IAM Accelerator
+
+[.centering]
+--
+image:images/iam-acc-concepts.png[width="60%"]
+--
+
+// -------------------------------------------------------------------------------
+=== Architecture --  Logical View
+
+[.centering]
+--
+image:images/iam-acc-logical-view.png[width="60%"]
+--
+
+// -------------------------------------------------------------------------------
+=== IAM Self-Registration/Password Management Process View
+
+[.centering]
+--
+image:images/iam-acc-process-view-1.png[width="60%"]
+--
+
+// -------------------------------------------------------------------------------
+=== IAM Authentication and Authorisation Process View
+
+[.centering]
+--
+image:images/iam-acc-process-view-2.png[width="60%"]
+--
+
+// -------------------------------------------------------------------------------
+=== Features
+
+[.noredheader,cols="55%,45%"]
+|===
+.^a|
+* Configuring an OAuth2 Provider
+* Configuring External OAuth2 Providers
+* Configuring Multi-factor Authentication
+* Creating Custom User Attributes
+* User Consent Design
+* User Consent Implementation Guide
+.^a|
+* Accessing Protected Resources
+* Rebranding OpenAM End User Pages
+* Rebranding OpenIDM Registration Pages
+* Synchronising OpenIDM with OpenDJ
+* Integrating OpenIDM with ELK
+* Automated Provisioning
+ |
+|===
+
+// -------------------------------------------------------------------------------
+=== Supporting Software
+[.noredheader,cols="55%,45%"]
+|===
+^.^a|
+* OpenAM
+* OpenDJ
+* OpenIDM
+* Elasticsearch ELK
+* Puppet
+^.^a|
+* VirtualBox
+* Vagrant
+* HAProxy
+* DNSMasq
+* Consul Agent
+ |
+|===
+
+// -------------------------------------------------------------------------------
+== Service Management Accelerator
+
+// -------------------------------------------------------------------------------
+=== What our customers need?
+
+* Proactive, not reactive - fix problems before users are impacted
+* convergence of technical and business monitoring
+* release regularly with no downtime
+* manage an estate that changes shape/size dynamically (elastic capacity)
+* ability to understand state of digital and non-digital components
+
+// -------------------------------------------------------------------------------
+=== Architecture --  Logical View
+
+[.centering]
+--
+image:images/service-management-acc-logical-view.png[width="70%"]
+--
+
+// -------------------------------------------------------------------------------
+=== Architecture -- Process View
+
+[.centering]
+--
+image:images/service-management-acc-process-view.png[width="70%"]
+--
+
+// -------------------------------------------------------------------------------
+=== Supporting Software
+[.noredheader,cols="55%,45%"]
+|===
+^.^a|
+* Sensu
+* Graphite
+* Dashing
+* Grafana
+* RabbitMQ
+* Redis
+* Elasticsearch ELK
+^.^a|
+* Puppet
+* VirtualBox
+* Vagrant
+* HAProxy
+* DNSMasq
+* Consul Agent
+ |
+|===
 
 // -------------------------------------------------------------------------------
 
@@ -281,6 +451,17 @@ image:images/integration-acc-process-view.png[width="70%"]
 // -------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------
+
 
 == !
 
