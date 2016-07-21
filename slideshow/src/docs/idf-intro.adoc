@@ -1,67 +1,65 @@
 include::_settings.adoc[]
-:speaker: Krzysztof Sobkowiak (http://twitter.com/ksobkowiak[@ksobkowiak])
+//:speaker: Krzysztof Sobkowiak (http://twitter.com/ksobkowiak[@ksobkowiak])
+:speaker: Krzysztof Sobkowiak
 :speaker-title: The Apache Software Foundation Member, Senior Solution Architect at Capgemini
 :speaker-email: krzysztof.sobkowiak@capgemini.com
 :speaker-blog: http://krzysztof-sobkowiak.net
 :speaker-twitter: http://twitter.com/ksobkowiak[@ksobkowiak]
 
 // -------------------------------------------------------------------------------
-= Capgemini Immediate Digital Framework
+= Immediate in Action
 
 [.cover]
 --
-+++<h3>Introduction</h3>+++
+//+++<h3>Introduction</h3>+++
 [.newline]
 
 [.event]
 IT Architecture Community +
-Wrocław, 20 June 2016
+Wrocław, 28 July 2016
 
 [.newline]
+[.noredheader,cols="26%,24%,24%,26%"]
+|===
+^.^a|
+^.^a|
+Tomasz Lewandowski
+//[.speaker-title]
+//Senior Solution Architect at Capgemini
+^.^a|
 {speaker}
-[.speaker-title]
-The Apache Software Foundation Member +
-Senior Solution Architect at Capgemini
+//[.speaker-title]
+//The Apache Software Foundation Member +
+//Senior Solution Architect at Capgemini
+^.^a| |
+|===
+
+//{speaker}
+//[.speaker-title]
+//The Apache Software Foundation Member +
+//Senior Solution Architect at Capgemini
 //[.logo-left]
 //image:{template-images-dir}/feather.png[width="60", link="http://apache.org"]
 --
 
 // -------------------------------------------------------------------------------
-== About Me
-
-[.noredheader,cols="75%,25%"]
-|===
-a|
-* FOSS enthusiast, evangelist & architect
-* The Apache Software Foundation
-** Member
-** Apache ServiceMix commiter & PMC chair (V.P. Apache ServiceMix)
-** active at Apache Karaf, CXF, Camel, ActiveMQ
-* Member/developer at http://oasp.io[OASP], https://ops4j1.jira.com/wiki/[OPS4J]
-* Senior Solution Architect & trainer at Capgemini
-* Co-founder, member & trainer at http://robocap.pl[RoboCap.pl]
-<.^| image:{template-images-dir}/kso1.png[] |
-|===
-
+//include::slides/about.adoc[]
+// -------------------------------------------------------------------------------
+//include::slides/disclaimer.adoc[]
 // -------------------------------------------------------------------------------
 
-=== !
+== Outline
 
+* Immediate -- Introduction
+* Accelerators -- Overview
+* Accelerators -- Demo
+* Immediate on AWS -- Demo
+
+// -------------------------------------------------------------------------------
+== Capgemini Immediate Digital Framework
 [.centering]
 --
-image:{template-images-dir}/warn.png[]
-
-[.medium-text]
-Views in this presentation are my personal views and do not necessarily reflect the views of Capgemini.
---
-
-// -------------------------------------------------------------------------------
-
-// -------------------------------------------------------------------------------
-== Immediate
-[.centering]
---
-image:images/immediate.png[width="40%"]
+image:images/immediate.png[width="30%"]
 --
 
 // -------------------------------------------------------------------------------
@@ -91,7 +89,7 @@ managed by Capgemini.
 ** Derive insights from your data
 ** Support a shift to a DevOps-based culture and approach
 * Immediate is complete, enterprise-scale, proven and ready-to-go.
-^.^| image:images/h-model.png[width="80%"] |
+^.^| image:images/h-model-new.png[width="100%"] |
 |===
 
 // -------------------------------------------------------------------------------
@@ -107,7 +105,7 @@ managed by Capgemini.
 ** Service Management
 ** Automated Provisioning
 ** Application Lifecycle Management.
-^.^| image:images/h-model.png[width="80%"] |
+^.^| image:images/h-model-new.png[width="100%"] |
 |===
 
 // -------------------------------------------------------------------------------
@@ -122,7 +120,7 @@ managed by Capgemini.
 ** scalable examples
 ** and auto-provisioning scripts.
 * Products are unchanged by Capgemini and are supported and maintained by the originating source
-^.^| image:images/h-model-with-products.png[width="80%"] |
+^.^| image:images/h-model-with-products-new.png[width="100%"] |
 |===
 
 // -------------------------------------------------------------------------------
@@ -141,7 +139,7 @@ managed by Capgemini.
     prototypes all the way to super secure high
     volume systems
 * Deployable on public or private cloud
-^.^| image:images/h-model-with-products.png[width="80%"] |
+^.^| image:images/h-model-with-products-new.png[width="100%"] |
 |===
 
 // -------------------------------------------------------------------------------
@@ -293,6 +291,7 @@ image:images/integration-acc-process-view.png[width="70%"]
 * Elasticsearch ELK
 * Puppet
 * Apache™ ActiveMQ
+* RabbitMQ
 ^.^a|
 * VirtualBox
 * Vagrant
@@ -456,48 +455,47 @@ image:images/service-management-acc-process-view.png[width="70%"]
 
 // -------------------------------------------------------------------------------
 
-// -------------------------------------------------------------------------------
+== Immediate in Action - Local
+
+* Explore selected accelerators running locally using Virtual Box and Vagrant
 
 // -------------------------------------------------------------------------------
 
-// -------------------------------------------------------------------------------
+== Immediate in Action - AWS
 
+* See the real-time auto provisioning of the Immediate Platform onto Amazon, based on the principle of "infrastructure as code”
+* See the deployment of a single page application and API onto the platform demonstrating Application Lifecycle Management and continuous delivery
+* See the operational monitoring capabilities that enable a proactive not reactive approach to service management.
 
-== !
-
-[.thanks]
---
-image:{template-images-dir}/smile.png[]
-
-+++<h1>Thanks!</h1>+++
-[.underline]
-image:{template-images-dir}/underline.png[]
-
-[.large-text]
-Any questions?
-
-[.newline]
-You can find me at +
-{speaker-twitter} +
-{speaker-email} +
-{speaker-blog}
---
-
-
-// -------------------------------------------------------------------------------
-
-=== !
+=== The Scenario -- Provision the Platform
 
 [.centering]
 --
-image:{template-images-dir}/warn.png[]
-
-[.small-text]
-+++
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-+++
-
-[.small-text]
+image:images/immediate-in-action-aws-1.png[width="80%"]
 --
 
+// -------------------------------------------------------------------------------
+
+=== The Scenario -- Deliver an API
+
+[.centering]
+--
+image:images/immediate-in-action-aws-2.png[width="80%"]
+--
+
+// -------------------------------------------------------------------------------
+
+=== The Scenario -- Deliver an Application
+
+[.centering]
+--
+image:images/immediate-in-action-aws-3.png[width="80%"]
+--
+
+// -------------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------------
+include::slides/qa.adoc[]
+// -------------------------------------------------------------------------------
+//include::slides/license.adoc[]
 // -------------------------------------------------------------------------------
