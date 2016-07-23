@@ -22,17 +22,18 @@ Wrocław, 28 July 2016
 [.noredheader,cols="26%,24%,24%,26%"]
 |===
 ^.^a|
-^.^a|
+^.<a|
 Tomasz Lewandowski
 //[.speaker-title]
-//Senior Solution Architect at Capgemini
-^.^a|
+//Senior Solution Architect
+^.<a|
 {speaker}
 //[.speaker-title]
-//The Apache Software Foundation Member +
-//Senior Solution Architect at Capgemini
+//Senior Solution Architect +
+//The ASF Member
 ^.^a| |
 |===
+
 
 //{speaker}
 //[.speaker-title]
@@ -50,17 +51,15 @@ Tomasz Lewandowski
 
 == Outline
 
-* Immediate -- Introduction
+* Immediate -- What is it?
 * Accelerators -- Overview
-* Accelerators -- Demo
-* Immediate on AWS -- Demo
+* Immediate in Action -- AWS Demo
+* Deep Dive into selected Accelerators
 
 // -------------------------------------------------------------------------------
 == Capgemini Immediate Digital Framework
-[.centering]
---
-image:images/immediate.png[width="30%"]
---
+
+image::images/immediate.png[width="30%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Immediate
@@ -160,26 +159,18 @@ managed by Capgemini.
 // -------------------------------------------------------------------------------
 === Concepts
 
-[.centering]
---
-image:images/api-management-acc-concepts.png[width="60%"]
---
+image::images/api-management-acc-concepts.png[width="60%", align="center"]
+
 
 // -------------------------------------------------------------------------------
 === Architecture --  Logical View
 
-[.centering]
---
-image:images/api-management-acc-logical-view.png[width="60%"]
---
+image::images/api-management-acc-logical-view.png[width="60%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Architecture --  Process View
 
-[.centering]
---
-image:images/api-management-acc-process-view.png[width="70%"]
---
+image::images/api-management-acc-process-view.png[width="70%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Features
@@ -233,26 +224,17 @@ image:images/api-management-acc-process-view.png[width="70%"]
 // -------------------------------------------------------------------------------
 === Concepts
 
-[.centering]
---
-image:images/integration-acc-concepts.png[width="70%"]
---
+image::images/integration-acc-concepts.png[width="70%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Architecture --  Logical View
 
-[.centering]
---
-image:images/integration-acc-logical-view.png[width="70%"]
---
+image::images/integration-acc-logical-view.png[width="70%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Architecture --  Process View
 
-[.centering]
---
-image:images/integration-acc-process-view.png[width="70%"]
---
+image::images/integration-acc-process-view.png[width="70%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Features
@@ -321,34 +303,22 @@ image:images/integration-acc-process-view.png[width="70%"]
 // -------------------------------------------------------------------------------
 === Security within the IAM Accelerator
 
-[.centering]
---
-image:images/iam-acc-concepts.png[width="60%"]
---
+image::images/iam-acc-concepts.png[width="60%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Architecture --  Logical View
 
-[.centering]
---
-image:images/iam-acc-logical-view.png[width="60%"]
---
+image::images/iam-acc-logical-view.png[width="60%", align="center"]
 
 // -------------------------------------------------------------------------------
 === IAM Self-Registration/Password Management Process View
 
-[.centering]
---
-image:images/iam-acc-process-view-1.png[width="60%"]
---
+image::images/iam-acc-process-view-1.png[width="60%", align="center"]
 
 // -------------------------------------------------------------------------------
 === IAM Authentication and Authorisation Process View
 
-[.centering]
---
-image:images/iam-acc-process-view-2.png[width="60%"]
---
+image::images/iam-acc-process-view-2.png[width="60%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Features
@@ -406,18 +376,12 @@ image:images/iam-acc-process-view-2.png[width="60%"]
 // -------------------------------------------------------------------------------
 === Architecture --  Logical View
 
-[.centering]
---
-image:images/service-management-acc-logical-view.png[width="70%"]
---
+image::images/service-management-acc-logical-view.png[width="70%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Architecture -- Process View
 
-[.centering]
---
-image:images/service-management-acc-process-view.png[width="70%"]
---
+image::images/service-management-acc-process-view.png[width="70%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Supporting Software
@@ -442,6 +406,89 @@ image:images/service-management-acc-process-view.png[width="70%"]
 |===
 
 // -------------------------------------------------------------------------------
+== Automated Provisioning Accelerator
+
+// -------------------------------------------------------------------------------
+=== What our customers need?
+
+* Release new features into Production regularly, ideally on a daily or weekly basis.
+* Automate the creation and update of environments including infrastructure, platforms and applications.
+* Make infrastructure changes at the same pace as agile application development.
+* Make platform changes at the same pace as agile application development.
+* Provision new environments rapidly to meet the needs of parallel application development.
+* Provision new environments rapidly to meet the needs of partner/third party integration projects.
+* Have confidence and the ability to re-provision whole environments when necessary.
+
+// -------------------------------------------------------------------------------
+=== Architecture --  Logical View
+
+image::images/automated-provisioning-acc-logical-view.png[width="60%", align="center"]
+
+// -------------------------------------------------------------------------------
+=== Architecture -- Process View
+
+image::images/automated-provisioning-acc-process-view.png[width="60%", align="center"]
+
+// -------------------------------------------------------------------------------
+=== Supporting Software
+[.noredheader,cols="55%,45%"]
+|===
+^.^a|
+* VirtualBox
+* VirtualBox
+* Puppet
+* Terraform
+^.^a|
+* Packer
+* Consul Agent
+* Consul Template
+* OpenVPN
+ |
+|===
+
+// -------------------------------------------------------------------------------
+== ALM Accelerator
+
+// -------------------------------------------------------------------------------
+=== What our customers need?
+
+* Continuous delivery of new features into production on a regular basis through a controlled and audited process.
+* Ability to understand exactly what software is deployed to each server in your environment.
+* Governance of multiple suppliers delivering services in co-located or distributed teams.
+* Project and agile team reporting including dashboards, burn-down charts and velocity graphs.
+* Project and task management functions including bug tracking and issue tracking.
+* Continuous integration tooling to ensure a solution’s components are integrated early and continuously leading to more stable higher quality solutions.
+* Configuration management tooling to provide source code, artefact and release management functions.
+* Collaboration tools to enable clients and suppliers to work together in co-located or distributed teams; e.g. wikis, forums, video, etc.
+* Requirements management including product and sprint backlog tooling.
+
+// -------------------------------------------------------------------------------
+=== Architecture --  Logical View
+
+image::images/alm-acc-logical-view.png[width="60%", align="center"]
+
+// -------------------------------------------------------------------------------
+=== Architecture -- Process View
+
+image::images/alm-acc-process-view.png[width="70%", align="center"]
+
+// -------------------------------------------------------------------------------
+=== Supporting Software
+[.noredheader,cols="55%,45%"]
+|===
+^.^a|
+* GoCD
+* Nexus
+* VirtualBox
+* Vagrant
+* Puppet
+^.^a|
+* Atlassian JIRA
+* Atlassian Confluence
+* Atlassian Bitbucket
+* Atlassian Crowd
+ |
+|===
 
 // -------------------------------------------------------------------------------
 
@@ -455,13 +502,13 @@ image:images/service-management-acc-process-view.png[width="70%"]
 
 // -------------------------------------------------------------------------------
 
-== Immediate in Action - Local
+// -------------------------------------------------------------------------------
 
-* Explore selected accelerators running locally using Virtual Box and Vagrant
+== Immediate in Action - AWS Demo
 
 // -------------------------------------------------------------------------------
 
-== Immediate in Action - AWS
+=== Immediate in Action - AWS Demo
 
 * See the real-time auto provisioning of the Immediate Platform onto Amazon, based on the principle of "infrastructure as code”
 * See the deployment of a single page application and API onto the platform demonstrating Application Lifecycle Management and continuous delivery
@@ -469,28 +516,23 @@ image:images/service-management-acc-process-view.png[width="70%"]
 
 === The Scenario -- Provision the Platform
 
-[.centering]
---
-image:images/immediate-in-action-aws-1.png[width="80%"]
---
+image::images/immediate-in-action-aws-1.png[width="80%", align="center"]
 
 // -------------------------------------------------------------------------------
 
 === The Scenario -- Deliver an API
 
-[.centering]
---
-image:images/immediate-in-action-aws-2.png[width="80%"]
---
+image::images/immediate-in-action-aws-2.png[width="80%", align="center"]
 
 // -------------------------------------------------------------------------------
 
 === The Scenario -- Deliver an Application
 
-[.centering]
---
-image:images/immediate-in-action-aws-3.png[width="80%"]
---
+image::images/immediate-in-action-aws-3.png[width="80%", align="center"]
+
+// -------------------------------------------------------------------------------
+
+== Deep Dive into selected Accelerators
 
 // -------------------------------------------------------------------------------
 
