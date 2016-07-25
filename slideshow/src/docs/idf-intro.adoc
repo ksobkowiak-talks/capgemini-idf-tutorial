@@ -147,11 +147,11 @@ managed by Capgemini.
 * Functionally rich
 * Mature open source
 * Cost-effective support mode
-* IaaS neutral
 * Scalable and cheap to deploy so they can
     be used for proofs of concepts, alphas,
     prototypes all the way to super secure high
     volume systems
+* IaaS neutral
 * Deployable on public or private cloud
 ^.^| image:images/h-model-with-products-new.png[width="100%"] |
 |===
@@ -226,15 +226,15 @@ image::images/api-management-acc-process-view.png[width="70%", align="center"]
 // -------------------------------------------------------------------------------
 === What our customers need?
 
-* Avoid point to point?
-* Create a pluggable architecture where you can swap in and out SaaS Services avoiding lock-in?
-* Manage and analyse data when it is everywhere?
-* Create reliable systems from unreliable SaaS services?
-* Deploy solutions across PaaS and IaaS providers, avoiding IaaS lock-in?
-* Assurance of the customer experiences they are going to get before we have started to deliver it?
-* Create solutions that scale both technically and commercially?
-* Ensure that our solutions are engineered consistently and to a high quality?
-* Deliver rapidly so that our customers can take advantage of new opportunities / technology?
+* Avoid point to point
+* Create a pluggable architecture where you can swap in and out SaaS Services avoiding lock-in
+* Manage and analyse data when it is everywhere
+* Create reliable systems from unreliable SaaS services
+* Deploy solutions across PaaS and IaaS providers, avoiding IaaS lock-in
+* Assurance of the customer experiences they are going to get before we have started to deliver it
+* Create solutions that scale both technically and commercially
+* Ensure that our solutions are engineered consistently and to a high quality
+* Deliver rapidly so that our customers can take advantage of new opportunities / technology
 
 // -------------------------------------------------------------------------------
 === Concepts
@@ -316,11 +316,6 @@ image::images/integration-acc-process-view.png[width="70%", align="center"]
 * Central administration of accounts
 
 // -------------------------------------------------------------------------------
-=== Security within the IAM Accelerator
-
-image::images/iam-acc-concepts.png[width="60%", align="center"]
-
-// -------------------------------------------------------------------------------
 === Architecture --  Logical View
 
 image::images/iam-acc-logical-view.png[width="60%", align="center"]
@@ -334,6 +329,11 @@ image::images/iam-acc-process-view-1.png[width="60%", align="center"]
 === IAM Authentication and Authorisation Process View
 
 image::images/iam-acc-process-view-2.png[width="60%", align="center"]
+
+// -------------------------------------------------------------------------------
+=== Security within the IAM Accelerator
+
+image::images/iam-acc-concepts.png[width="60%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Features
@@ -433,6 +433,11 @@ image::images/service-management-acc-process-view.png[width="70%", align="center
 * Provision new environments rapidly to meet the needs of parallel application development.
 * Provision new environments rapidly to meet the needs of partner/third party integration projects.
 * Have confidence and the ability to re-provision whole environments when necessary.
+
+// -------------------------------------------------------------------------------
+=== Concepts
+
+image::images/automated-provisioning-acc-concepts.png[width="70%", align="center"]
 
 // -------------------------------------------------------------------------------
 === Architecture --  Logical View
