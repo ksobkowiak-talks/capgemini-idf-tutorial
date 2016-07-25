@@ -32,6 +32,7 @@ Tomasz Lewandowski
 //Senior Solution Architect +
 //The ASF Member
 ^.^a| |
+2+^.| Wes Miles (Demo Video) |
 |===
 
 
@@ -82,12 +83,26 @@ managed by Capgemini.
 .^a|
 * Immediate gives you a digital platform to:
 ** Create a seamless customer experience
-** Develop mobile apps
+** Develop/integrate mobile apps
 ** Orchestrate services
 ** Manage access, identity and security
 ** Derive insights from your data
 ** Support a shift to a DevOps-based culture and approach
 * Immediate is complete, enterprise-scale, proven and ready-to-go.
+^.^| image:images/h-model-new.png[width="100%"] |
+|===
+
+// -------------------------------------------------------------------------------
+=== Immediate
+
+[.noredheader,cols="55%,45%"]
+|===
+.^a|
+* The platform makes it easy for you to:
+** Test and learn through proofs of concept
+** Scale new services for the enterprise
+** Plug and play new services without labour-intensive integration
+** Be agile without losing control
 ^.^| image:images/h-model-new.png[width="100%"] |
 |===
 
