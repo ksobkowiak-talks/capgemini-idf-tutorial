@@ -7,7 +7,7 @@ include::_settings.adoc[]
 :speaker-twitter: http://twitter.com/ksobkowiak[@ksobkowiak]
 
 // -------------------------------------------------------------------------------
-= Immediate in Action
+= Quick Introduction into Capgemini Enterprise Integrated PaaS
 
 [.cover]
 --
@@ -15,15 +15,15 @@ include::_settings.adoc[]
 [.newline]
 
 [.event]
-IT Architecture Community +
-Wrocław, 28 July 2016
+Automatic Provisioning Hackaton +
+Munich, 30 November -- 1 December 2016
 
 [.newline]
 [.noredheader,cols="26%,24%,24%,26%"]
 |===
 ^.^a|
 ^.<a|
-Tomasz Lewandowski
+Dariusz Semba
 //[.speaker-title]
 //Senior Solution Architect
 ^.<a|
@@ -31,8 +31,7 @@ Tomasz Lewandowski
 //[.speaker-title]
 //Senior Solution Architect +
 //The ASF Member
-^.^a| |
-2+^.| Wes Miles (Demo Video) |
+^.^a|
 |===
 
 
@@ -55,7 +54,6 @@ Tomasz Lewandowski
 * Immediate -- What is it?
 * Accelerators -- Overview
 * Immediate in Action -- AWS Demo
-* Deep Dive into selected Accelerators
 
 // -------------------------------------------------------------------------------
 == Capgemini Immediate Digital Framework
@@ -549,10 +547,6 @@ image::images/immediate-in-action-aws-2.png[width="80%", align="center"]
 === The Scenario -- Deliver an Application
 
 image::images/immediate-in-action-aws-3.png[width="80%", align="center"]
-
-// -------------------------------------------------------------------------------
-
-== Deep Dive into selected Accelerators
 
 // -------------------------------------------------------------------------------
 
